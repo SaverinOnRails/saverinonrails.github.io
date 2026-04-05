@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MyPitch.Browser</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css" />
+</head>
+
+<body style="margin: 0; overflow: hidden">
+    <div id="out">
+        <div class="avalonia-splash" style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+              ">
+            <div style="
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+                 ">
+                <img src="logo.png" style="
+                    max-width: 50%;
+                    max-height: 50%;
+                    object-fit: contain;
+                " />
+            </div>
+        </div>
+    </div>
+    <script src="/js/libfluidsynth-2.4.6.js"></script>
+    <script src="/js/js-synthesizer.min.js"></script>
+
+    <script type='module' src="./main.js"></script>
+</body>
+
+</html>
